@@ -31,9 +31,33 @@ nav {
     width: 100vw;
     z-index: 10;
     background-color: rgba(0, 0, 0, .5);
+    display: grid;
+    grid-template-colomns: 1fr 2fr;
+    grid-template-areas: "logo ul"
+}
+
+nav > .logo {
+    grid-area: logo;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    
+}
+
+nav > .logo > i {
+    padding-top: 16px;
+    font-size: 40px;
+    margin-left: 32px;
+}
+
+nav > .logo > p {
+    font-size: 22px;
+    margin-left: 5px;
 }
 
 nav > ul {
+    grid-area: ul;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
