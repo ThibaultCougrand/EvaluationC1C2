@@ -1,6 +1,7 @@
 /* GRID */
 
 .grid-container {
+    height: 220vh;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "nav""main""footer";
@@ -8,12 +9,21 @@
 
 nav {
     grid-area: nav;
+    background-color: blue;
 }
 
 main {
     grid-area: main;
+    background-color: green;
 }
 
 footer {
     grid-area: footer;
+    background-color: red;
+}
+
+
+
+body {
+    margin: 0;
 }
