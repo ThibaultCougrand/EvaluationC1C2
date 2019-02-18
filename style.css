@@ -110,25 +110,33 @@ main > .image-container {
 }
 
 main > .image-container > div {
-    
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
 
 main > .image-container > div > h1 {
     font-size: 80px;
     font-weight: 900;
     letter-spacing: -5px;
-}
-
-main > .image-container > div > h4 {
-    
+    margin: 25px 0;
 }
 
 main > .image-container > div > button {
-    
+    background-color: green;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    width: 40%;
+    height: 45px;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
 
 /* FOOTER */
 
 footer {
     background-color: black;
+    
 }
