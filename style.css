@@ -37,23 +37,24 @@ nav {
     grid-template-areas: "logo ul"
 }
 
-nav > .logo {
+.logo {
     grid-area: logo;
     color: white;
     display: flex;
     flex-direction: row;
     padding-top: 5px;
+    font-weight: bold;
     
 }
 
-nav > .logo > i {
+.logo > i {
     padding-top: 15px;
     font-size: 40px;
     margin-left: 32px;
     font-weight: initial;
 }
 
-nav > .logo > p {
+.logo > p {
     font-size: 24px;
     margin-left: 5px;
     margin-top: 20px;
@@ -82,10 +83,10 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-    color: green;
+    color: #1ed760;
 }
 
-nav > ul > li > .divider {
+.divider {
     width: 1px;
     background-color: white;
     height: 16px;
@@ -97,7 +98,7 @@ main {
     background: linear-gradient(#F037A5 -60%, #FAE62D 140%);
 }
 
-main > .image-container {
+.image-container {
     background-image: url(images/hero-burst.svg);
     background-repeat: no-repeat;
     background-size: 134%;
@@ -123,7 +124,7 @@ main > .image-container > div > h1 {
 }
 
 main > .image-container > div > button {
-    background-color: green;
+    background-color: #1db954;
     color: white;
     border: none;
     text-transform: uppercase;
@@ -132,11 +133,35 @@ main > .image-container > div > button {
     border-radius: 40px;
     letter-spacing: 1px;
     font-weight: bold;
+    transition: .5s;
+}
+
+main > .image-container > div > button:hover {
+    background-color: #1ed760;
 }
 
 /* FOOTER */
 
 footer {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteneur-haut {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.list-footer {
+    
+}
+
+.list-footer > ul {
+    
+}
+
+.list-footer > ul > li {
     
 }
