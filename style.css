@@ -3,7 +3,7 @@
 .grid-container {
     height: 220vh;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1.15fr .85fr;
     grid-template-areas: "main""footer";
 }
 
@@ -30,6 +30,7 @@ nav {
     height: 80px;
     width: 100vw;
     z-index: 10;
+    font-weight: bold;
     background-color: rgba(0, 0, 0, .5);
     display: grid;
     grid-template-colomns: 1fr 2fr;
@@ -46,9 +47,10 @@ nav > .logo {
 }
 
 nav > .logo > i {
-    padding-top: 16px;
+    padding-top: 15px;
     font-size: 40px;
     margin-left: 32px;
+    font-weight: initial;
 }
 
 nav > .logo > p {
@@ -57,15 +59,35 @@ nav > .logo > p {
 }
 
 nav > ul {
+    margin: 0;
     grid-area: ul;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     list-style: none;
+    margin-right: 30px;
 }
 
 nav > ul > li {
     color: white;
+    font-size: 13px;
+    padding: 34px 17px;
+}
+
+nav > ul > li > a {
+    height: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+nav > ul > li > a:hover {
+    color: green;
+}
+
+nav > ul > li > .divider {
+    width: 1px;
+    background-color: white;
+    height: 16px;
 }
 
 /* MAIN */
