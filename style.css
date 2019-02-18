@@ -20,6 +20,7 @@ footer {
 
 body {
     margin: 0;
+    font-family: Circular, Helvetica, Arial, sans-serif;
 }
 
 /* NAVBAR */
@@ -53,8 +54,9 @@ nav > .logo > i {
 }
 
 nav > .logo > p {
-    font-size: 22px;
+    font-size: 24px;
     margin-left: 5px;
+    margin-top: 20px;
 }
 
 nav > ul {
@@ -69,7 +71,7 @@ nav > ul {
 
 nav > ul > li {
     color: white;
-    font-size: 13px;
+    font-size: 15px;
     padding: 34px 17px;
 }
 
@@ -102,4 +104,31 @@ main > .image-container {
     background-position: center;
     z-index: 10;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > .image-container > div {
+    
+}
+
+main > .image-container > div > h1 {
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -5px;
+}
+
+main > .image-container > div > h4 {
+    
+}
+
+main > .image-container > div > button {
+    
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
 }
