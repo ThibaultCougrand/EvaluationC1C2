@@ -3,13 +3,8 @@
 .grid-container {
     height: 220vh;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "nav""main""footer";
-}
-
-nav {
-    grid-area: nav;
-    background-color: blue;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "main""footer";
 }
 
 main {
@@ -22,8 +17,16 @@ footer {
     background-color: red;
 }
 
-
+/* GENERAL */
 
 body {
     margin: 0;
+}
+
+/* NAVBAR */
+
+nav > ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
 }
