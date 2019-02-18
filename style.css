@@ -67,3 +67,10 @@ nav > ul {
 nav > ul > li {
     color: white;
 }
+
+/* MAIN */
+
+main {
+    background-image: url(images/hero-burst.svg);
+    
+}
