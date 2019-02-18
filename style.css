@@ -9,7 +9,6 @@
 
 main {
     grid-area: main;
-    background-color: green;
 }
 
 footer {
@@ -93,6 +92,14 @@ nav > ul > li > .divider {
 /* MAIN */
 
 main {
+    background: linear-gradient(#F037A5 -60%, #FAE62D 140%);
+}
+
+main > .image-container {
     background-image: url(images/hero-burst.svg);
-    
+    background-repeat: no-repeat;
+    background-size: 134%;
+    background-position: center;
+    z-index: 10;
+    height: 100%;
 }
